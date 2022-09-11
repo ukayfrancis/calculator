@@ -5,7 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculator</title>
-    <link rel="stylesheet" href="assets/css/calc.css" type="text/css">
+    <link id="dark" rel="stylesheet" href="assets/css/calc.css" type="text/css">
+    
+    
 </head>
 <body>
     <div class="container">
@@ -27,7 +29,8 @@
             <button onclick="calculate(8)">8</button>
             <button onclick="calculate(9)">9</button>
             <button onclick="calculate('+')">+</button>
-            <button  onclick="calculate(0)" id="zero">0</button>
+            <button  onclick="calculate(0)">0</button>
+            <button  onclick="toggle()">~</button>
             <button onclick="calculate('.')">.</button>
             <button onclick="Result()">=</button>   
         </div>
